@@ -51,7 +51,7 @@ const Navbar = (props) => {
                 <Link to="/">
                     <button onClick={() => {
                         setIsLoggedIn(false);
-                        toast.success("Logged Out");
+                        toast.error("Logged Out");
                     }}
                     className='bg-richblack-800 text-richblack-100 py-[8px] 
                     px-[12px] rounded-[8px] border border-richblack-700'>
